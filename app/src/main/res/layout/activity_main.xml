@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.example.littletestapp.utils.HoldTabScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+    <com.example.littletestapp.javaBean.ImageSlideshow
+        android:id="@+id/is_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"/>
+
+<!--价格-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F03030"
+            android:textSize="14dp"
+            android:text="599"/>
+        <TextView
+            android:id="@+id/tv_initial_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="14dp"
+            android:text="初上市价格：599"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#C4C3C3"/>
+<!--    选择规格-->
+    <RelativeLayout
+        android:id="@+id/rl_specs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_specs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="14dp"
+            android:text="请选择配送方式，颜色，尺码，数量"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ic_launcher"
+            />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#C4C3C3"/>
+
+<!--    详情及评论-->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDFDFD"
+        app:tabIndicatorColor="#0A8FEB"
+        app:tabSelectedTextColor="#444"
+        app:tabMode="fixed"
+        app:tabTextColor="#A5A3A3" />
+
+
+    <com.example.littletestapp.utils.CustomScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+        </LinearLayout>
+    </com.example.littletestapp.utils.HoldTabScrollView>
+<!--    底部容器-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="#C4C3C3"
+        android:paddingTop="1dp">
+<!--        首页-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_marginRight="1dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/ic_launcher"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:text="首页"/>
+        </LinearLayout>
+
+        <!--        客服-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_marginRight="1dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/ic_launcher"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:text="客服"/>
+        </LinearLayout>
+
+        <!--        购物车-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#ffffff"
+            android:layout_marginRight="1dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@mipmap/ic_launcher"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="14dp"
+                android:text="购物车"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:textColor="#F00F0F"
+            android:text="立即购物" />
+
+        <TextView
+            android:id="@+id/add_to_cart"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:background="#FF9800"
+            android:textSize="14dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="跳转收货页"/>
+    </LinearLayout>
+</RelativeLayout>

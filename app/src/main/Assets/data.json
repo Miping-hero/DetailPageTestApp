@@ -1,0 +1,230 @@
+{
+  "status": "OK",
+  "result": {
+    "productSysCode": "295334",
+    "productName": "本色战袍童装多彩羽绒服",
+    "categoryId": 359,
+    "galleryList": [
+      {
+        "sellerCode": "MB",
+        "productSysCode": "295334",
+        "imageUrl": "/sources/images/goods/MB/295334/295334_00.jpg",
+        "imageName": "295334_00.jpg",
+        "colorCode": ""
+      },
+      {
+        "sellerCode": "MB",
+        "productSysCode": "295334",
+        "imageUrl": "/sources/images/goods/MB/295334/295334_30.jpg",
+        "imageName": "295334_30.jpg",
+        "colorCode": ""
+      },
+      {
+        "sellerCode": "MB",
+        "productSysCode": "295334",
+        "imageUrl": "/sources/images/goods/MB/295334/295334_31.jpg",
+        "imageName": "295334_31.jpg",
+        "colorCode": ""
+      },
+      {
+        "sellerCode": "MB",
+        "productSysCode": "295334",
+        "imageUrl": "/sources/images/goods/MB/295334/295334_32.jpg",
+        "imageName": "295334_32.jpg",
+        "colorCode": ""
+      },
+      {
+        "sellerCode": "MB",
+        "productSysCode": "295334",
+        "imageUrl": "/sources/images/goods/MB/295334/295334_33.jpg",
+        "imageName": "295334_33.jpg",
+        "colorCode": ""
+      },
+      {
+        "sellerCode": "MB",
+        "productSysCode": "295334",
+        "imageUrl": "/sources/images/goods/MB/295334/295334_34.jpg",
+        "imageName": "295334_34.jpg",
+        "colorCode": ""
+      }
+    ],
+    "marketPrice": 599.000000,
+    "productUrl": "/sources/images/goods/MB/295334/295334_00.jpg",
+    "protectPrice": 179.700000,
+    "saleAttrList": {
+      "saleAttr1List": [
+        {
+          "imageUrl": "/sources/images/goods/MB/295334/295334_00_00.jpg",
+          "saleAttr1Key": "颜色",
+          "saleAttr1Value": "亮白色",
+          "saleAttr1ValueCode": "00",
+          "stockNum": 10,
+          "barcodeSysCode": "29533400130"
+        },
+        {
+          "imageUrl": "/sources/images/goods/MB/295334/295334_20_00.jpg",
+          "saleAttr1Key": "颜色",
+          "saleAttr1Value": "实样黄",
+          "saleAttr1ValueCode": "20",
+          "stockNum": 10,
+          "barcodeSysCode": "29533420130"
+        },
+        {
+          "imageUrl": "/sources/images/goods/MB/295334/295334_30_00.jpg",
+          "saleAttr1Key": "颜色",
+          "saleAttr1Value": "银色",
+          "saleAttr1ValueCode": "30",
+          "stockNum": 5,
+          "barcodeSysCode": "29533430130"
+        },
+        {
+          "imageUrl": "/sources/images/goods/MB/295334/295334_40_00.jpg",
+          "saleAttr1Key": "颜色",
+          "saleAttr1Value": "耀眼蓝",
+          "saleAttr1ValueCode": "40",
+          "stockNum": 20,
+          "barcodeSysCode": "29533440130"
+        }
+      ],
+      "saleAttr2List": [
+        {
+          "saleAttr2Key": "尺码",
+          "saleAttr2ValueCode": "30",
+          "saleAttr2Value": "110/56",
+          "stockNum": 11,
+          "barcodeSysCode": "29533400130"
+        },
+        {
+          "saleAttr2Key": "尺码",
+          "saleAttr2ValueCode": "32",
+          "saleAttr2Value": "120/60",
+          "stockNum": 6,
+          "barcodeSysCode": "29533400132"
+        },
+        {
+          "saleAttr2Key": "尺码",
+          "saleAttr2ValueCode": "34",
+          "saleAttr2Value": "130/64",
+          "stockNum": 6,
+          "barcodeSysCode": "29533400134"
+        },
+        {
+          "saleAttr2Key": "尺码",
+          "saleAttr2ValueCode": "36",
+          "saleAttr2Value": "140/68",
+          "stockNum": 8,
+          "barcodeSysCode": "29533400136"
+        },
+        {
+          "saleAttr2Key": "尺码",
+          "saleAttr2ValueCode": "37",
+          "saleAttr2Value": "150/72",
+          "stockNum": 14,
+          "barcodeSysCode": "29533400137"
+        }
+      ]
+    },
+    "salePrice": 599.00,
+    "status": 1,
+    "stockNum": 34991,
+    "isChange": false,
+    "tagPosition": "",
+    "tagName": "",
+    "firstCategoryName": "外套",
+    "commentLevel": 0,
+    "skuInfo": [
+      {
+        "saleAttr2ValueCode": "30",
+        "stockNum": 2,
+        "barcodeSysCode": "29533400130",
+        "saleAttr1ValueCode": "00"
+      },
+      {
+        "saleAttr2ValueCode": "32",
+        "stockNum": 2,
+        "barcodeSysCode": "29533400132",
+        "saleAttr1ValueCode": "00"
+      },
+      {
+        "saleAttr2ValueCode": "34",
+        "stockNum": 2,
+        "barcodeSysCode": "29533400134",
+        "saleAttr1ValueCode": "00"
+      },
+      {
+        "saleAttr2ValueCode": "36",
+        "stockNum": 2,
+        "barcodeSysCode": "29533400136",
+        "saleAttr1ValueCode": "00"
+      },
+      {
+        "saleAttr2ValueCode": "37",
+        "stockNum": 2,
+        "barcodeSysCode": "29533400137",
+        "saleAttr1ValueCode": "00"
+      },
+      {
+        "saleAttr2ValueCode": "30",
+        "stockNum": 5,
+        "barcodeSysCode": "29533420130",
+        "saleAttr1ValueCode": "20"
+      },
+      {
+        "saleAttr2ValueCode": "37",
+        "stockNum": 5,
+        "barcodeSysCode": "29533420137",
+        "saleAttr1ValueCode": "20"
+      },
+      {
+        "saleAttr2ValueCode": "36",
+        "stockNum": 2,
+        "barcodeSysCode": "29533430136",
+        "saleAttr1ValueCode": "30"
+      },
+      {
+        "saleAttr2ValueCode": "37",
+        "stockNum": 3,
+        "barcodeSysCode": "29533430137",
+        "saleAttr1ValueCode": "30"
+      },
+      {
+        "saleAttr2ValueCode": "30",
+        "stockNum": 4,
+        "barcodeSysCode": "29533440130",
+        "saleAttr1ValueCode": "40"
+      },
+      {
+        "saleAttr2ValueCode": "32",
+        "stockNum": 4,
+        "barcodeSysCode": "29533440132",
+        "saleAttr1ValueCode": "40"
+      },
+      {
+        "saleAttr2ValueCode": "34",
+        "stockNum": 4,
+        "barcodeSysCode": "29533440134",
+        "saleAttr1ValueCode": "40"
+      },
+      {
+        "saleAttr2ValueCode": "36",
+        "stockNum": 4,
+        "barcodeSysCode": "29533440136",
+        "saleAttr1ValueCode": "40"
+      },
+      {
+        "saleAttr2ValueCode": "37",
+        "stockNum": 4,
+        "barcodeSysCode": "29533440137",
+        "saleAttr1ValueCode": "40"
+      }
+    ],
+    "sizePicture": "",
+    "isPromotion": "0",
+    "categoryNameList": [
+      "外套",
+      "外套",
+      "羽绒服"
+    ]
+  },
+  "ok": true
+}

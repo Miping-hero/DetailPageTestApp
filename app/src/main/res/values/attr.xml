@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomIntEditView">
+        <attr name="maxValues" format="integer" />
+        <attr name="minValues" format="integer" />
+        <attr name="addOrMinusValues" format="integer" />
+        <attr name="default_values" format="integer" />
+        <attr name="ceilingValue_int" format="boolean" />
+    </declare-styleable>
+</resources>

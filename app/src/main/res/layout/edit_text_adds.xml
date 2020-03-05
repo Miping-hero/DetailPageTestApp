@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <EditText
+            android:id="@+id/edit_ets"
+            style="@style/style_edittext"
+            android:gravity="center"
+            android:text=""
+            android:maxLength="6"
+            android:maxEms="6"
+            android:ems="6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/calendar_down"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@mipmap/icon_jian" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#928c8c" />
+        </LinearLayout>
+
+        <!--右边-->
+        <LinearLayout
+            android:id="@+id/calendar_up"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#928c8c" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:src="@mipmap/icon_jia" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

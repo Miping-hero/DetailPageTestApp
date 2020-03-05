@@ -1,0 +1,36 @@
+{
+  "status": "OK",
+  "result": [
+    {
+      "id": 196,
+      "consignee": "leaf",
+      "country": 1,
+      "countryName": "中国",
+      "province": 2,
+      "provinceName": "北京",
+      "city": 36,
+      "cityName": "北京市",
+      "district": 425,
+      "districtName": "东城区",
+      "address": "100号",
+      "mobile": "18612312322",
+      "isdefault": true
+    },
+    {
+      "id": 198,
+      "consignee": "aaa",
+      "country": 1,
+      "countryName": "中国",
+      "province": 10,
+      "provinceName": "上海",
+      "city": 108,
+      "cityName": "上海市",
+      "district": 1219,
+      "districtName": "黄浦区",
+      "address": "aaa号",
+      "mobile": "18612312312",
+      "isdefault": false
+    }
+  ],
+  "ok": true
+}

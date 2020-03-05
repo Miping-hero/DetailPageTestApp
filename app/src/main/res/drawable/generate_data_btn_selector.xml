@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:state_enabled="true"
+        android:drawable="@color/colorPrimary" />
+<!--        android:drawable="@drawable/generate_data_btn_press" />-->
+    <item android:state_focused="true"
+        android:state_enabled="true"
+        android:drawable="@color/colorPrimary" />
+<!--        android:drawable="@drawable/generate_data_btn_press" />-->
+<!--    <item android:drawable="@drawable/generate_data_btn_normal" />-->
+    <item android:drawable="@color/gray_A3A3A3" />
+</selector>
